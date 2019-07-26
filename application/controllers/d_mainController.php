@@ -20,6 +20,6 @@ class d_mainController extends CI_Controller {
 	 */
 	public function index()
 	{
-		echo "tes";
+		$this->load->view('dashboard/index');
 	}
 }

@@ -66,3 +66,7 @@ $route['work/getall'] = 'workController/getAll';
 //$route['work'] = 'blogController'; 
 $route['blog/getall'] = 'blogController/getAll'; 
 
+
+//$route['contact'] = 'contactController'; 
+$route['contact/getall'] = 'contactController/getAll'; 
+

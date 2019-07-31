@@ -38,29 +38,20 @@
             <div class="contact-details wow slideInUp">
             <h3>Address</h3>
             <p class="big-text">
-                120 K St, Second Floor<br>
-                Sacramento<br>
-                CA 95814<br>
+                <span id="txt_adress">.....</span><br>
+                <span id="txt_city">.....</span><br>
+                <span id="zip_code">.....</span><br>
             </p>
-            <div class="two spacing"></div>
-            <!-- 
-            <p>
-                <a class="button boxed black google-map-button" target="_blank" href="https://www.google.com/maps/dir/Current+Location/120+K+Street+Sacramento+CA+95814"><i class="icon-basic-geolocalize-01"></i>Open in Google Maps</a>
-            </p>
-            -->          
+            <div class="two spacing"></div>        
             <div class="four spacing"></div>
             </div>
         </div>
         <div class="large-4 columns">
             <div class="contact-details wow slideInUp">
             <h3>Contact</h3>
-            <p class="big-text"> <a href="tel:916.921.9278">916.921.9278</a></p>
-            <p class="big-text">
-                <a href="mailto:business@aoko.com" title="business email">business@aoko.com</a>
-            </p>
-            <p class="big-text">
-                <a href="mailto:jobs@aoko.com" title="jobs email">jobs@aoko.com</a>
-            </p>
+            <p class="big-text"><span id="txt_email"></span></p>
+            <p class="big-text"><span id="txt_phone1"></span></p>
+            <p class="big-text"><span id="txt_phone2"></span></p>
             <div class="spacing"></div>
             </div>
         </div>
@@ -110,3 +101,26 @@
     -->   
     </div>
 </div>
+<script>
+    $.ajax({
+        url:'<?=base_url()?>index.php/contact/getall',
+        method: 'GET',
+        success: function(response){    
+            console.log(response);      
+                var arr_data = JSON.parse(response);  
+
+                $("#txt_adress").text(arr_data.listContact[0].Adress);
+                $("#txt_city").text(arr_data.listContact[0].City);
+                $("#zip_code").text(arr_data.listContact[0].ZipCode);
+
+                $("#txt_email").text(arr_data.listContact[0].Email);
+                $("#txt_phone1").text(arr_data.listContact[0].Phone1);
+                $("#txt_phone2").text(arr_data.listContact[0].Phone2);               
+            
+        },
+        error: function(response)
+        {
+            console.log(response);
+        }
+    });
+</script>

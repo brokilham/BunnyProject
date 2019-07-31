@@ -35,224 +35,8 @@
     </div>
     </div>
     <div class="content invisible">
-    <div class="spacing"></div>
-    <div class="posts">
-        <div class="large-6 columns">
-        <div class="post featured">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">You don’t take a photograph, you make it.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            <!-- <p><a href="#" class="button boxed black">Read more</a></p> -->
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-1"></div>
-            </div>
-        </div>
-        </div>
-        <div class="large-6 columns">
-        <div class="post">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">Cool video post.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-3"></div>
-            </div>
-        </div>
-        </div>
-        <div class="large-6 columns">
-        <div class="post">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">Updating our ideneity.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-5"></div>
-            </div>
-        </div>
-        </div>
-        <div class="large-6 columns">
-        <div class="post">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">Selecting ideas for an innovative publishing business.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-7"></div>
-            </div>
-        </div>
-        </div>
-        <div class="large-6 columns">
-        <div class="post">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">The real winners.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-2"></div>
-            </div>
-        </div>
-        </div>
-        <div class="large-6 columns">
-        <div class="post">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">Art is pattern informed by sensibility.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-4"></div>
-            </div>
-        </div>
-        </div>
-        <div class="large-6 columns">
-        <div class="post">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">Art is pattern informed by sensibility.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-6"></div>
-            </div>
-        </div>
-        </div>
-        <div class="large-6 columns">
-        <div class="post">
-            <div class="post-desc">
-            <p class="info-author">
-                <span>
-                Posted by
-                <a href="#">admin</a>
-                </span>
-            </p>
-            <h2><a href="single.html">Art is pattern informed by sensibility.</a></h2>
-            <p class="info-others">
-                <span>15/11/2017</span>
-                <span>
-                In <a href="#" rel="category tag">Design</a>
-                </span>
-                <span>
-                <a href="#">0 Comments</a>
-                </span>
-            </p>
-            <div class="two spacing"></div>
-            </div>
-
-            <div class="post-image-wrap">
-            <div class="post-image post-image-8"></div>
-            </div>
-        </div>
+        <div class="spacing"></div>
+        <div class="posts" id="txt_posts">                      
         </div>
     </div>
     <div class="large-12 columns">
@@ -262,4 +46,55 @@
         <div class="four spacing"></div>
     </div>
     </div>
+</div>    
+        </div>
+    </div>
 </div>
+<script>
+      $.ajax({
+        url:'<?=base_url()?>index.php/blog/getall',
+        method: 'GET',
+        success: function(response){    
+                //console.log(response);      
+                var arr_data = JSON.parse(response);  
+                var html = "";
+                for (i = 0; i <  arr_data.listBlogPost.length; i++)
+                {           
+
+                     html += " <div class='large-6 columns'>"+
+                                    "<div class='post'>"+
+                                        "<div class='post-desc'>"+
+                                            "<p class='info-author'>"+
+                                                "<span>"+
+                                                    "Posted by "+
+                                                    "<a href='#'>"+arr_data.listBlogPost[i].CreatedBy+"</a>"+
+                                                "</span>"+
+                                            "</p>"+
+                                            "<h2><a href='single.html'>"+arr_data.listBlogPost[i].Title+"</a></h2>"+
+                                            "<p class='info-others'>"+
+                                                "<span>"+arr_data.listBlogPost[i].CreatedDate+"</span>"+
+                                                "<span>"+
+                                                    "In <a href='#' rel='category tag'>"+arr_data.listBlogPost[i].Category+"</a>"+
+                                                "</span>"+
+                                                "<span>"+
+                                                    "<a href='#'>0 Comments</a>"+
+                                                "</span>"+
+                                            "</p>"+
+                                            "<div class='two spacing'></div>"+
+                                        "</div>"+
+                                        "<div class='post-image-wrap'>"+
+                                            "<div class='post-image post-image-1'></div>"+
+                                        "</div>"+
+                                    "</div>"+
+                                "</div>";    
+                }   
+            
+                $("#txt_posts").html(html);
+                //console.log(html)
+        },
+        error: function(response)
+        {
+            console.log(response);
+        } 
+    });
+</script>

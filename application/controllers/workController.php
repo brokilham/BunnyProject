@@ -15,7 +15,6 @@ class workController extends CI_Controller {
 	{
 		$data["listWork"] = $this->t_works_model->getAll();
         $this->load->view('dashboard/work/main',$data);
-	
 	}
 
 	public function getAll()

@@ -104,7 +104,7 @@
                 {               
                     html += "   <div class='large-4 medium-6 columns'>"+
                                     "<div class='item'>"+
-                                        "<a href='case-study.html'>"+
+                                        "<a href='<?php echo site_url('/index.php/work_detail')?>'>"+
                                             "<div class='circle-wrap'>"+
                                                 "<div class='media work-15'></div>"+
                                             "</div>"+

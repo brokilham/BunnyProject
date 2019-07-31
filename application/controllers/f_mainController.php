@@ -22,4 +22,9 @@ class f_mainController extends CI_Controller {
 	{
 		$this->load->view('frontend/index');
 	}
+
+	public function index_work_detail()
+	{
+		$this->load->view('frontend/_partials/work_detail');
+	}
 }

@@ -54,4 +54,11 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['dashboard'] = 'd_mainController'; // sudah jalan
+$route['dashboard'] = 'd_mainController'; 
+
+
+$route['about/getall'] = 'aboutController/getAll'; 
+
+$route['work'] = 'workController'; 
+$route['work/getall'] = 'workController/getAll'; 
+

@@ -65,6 +65,7 @@ $route['work_detail'] = 'f_mainController/index_work_detail';
 /* begin of backend section */
 $route['dashboard'] = 'd_mainController'; 
 
+$route['about'] = 'aboutController'; 
 $route['about/getall'] = 'aboutController/getAll'; 
 
 $route['work'] = 'workController'; 

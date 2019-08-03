@@ -10,6 +10,12 @@ class blogController extends CI_Controller {
 		$this->load->database();  
 		$this->load->model("t_blog_model");				
     }
+	public function index()
+	{
+		//$data["listWork"] = $this->t_works_model->getAll();
+		//$this->load->view('dashboard/work/main',$data);
+		$this->load->view('dashboard/blog/main');
+	}
 
 	public function getAll()
 	{

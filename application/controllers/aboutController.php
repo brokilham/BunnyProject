@@ -9,7 +9,13 @@ class aboutController extends CI_Controller {
 		parent::__construct();
 		$this->load->database();  
 		$this->load->model("t_about_model");				
-    }
+	}
+	
+	public function index()
+	{
+		$data["listAbout"] = $this->t_about_model->getAll();     
+		$this->load->view('dashboard/about/main',$data);
+	}
 
 	public function getAll()
 	{

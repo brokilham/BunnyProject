@@ -67,6 +67,7 @@ $route['dashboard'] = 'd_mainController';
 
 $route['about'] = 'aboutController'; 
 $route['about/getall'] = 'aboutController/getAll'; 
+$route['about/save'] = 'aboutController/save'; 
 
 $route['work'] = 'workController'; 
 $route['work/getall'] = 'workController/getAll'; 

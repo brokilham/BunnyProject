@@ -14,4 +14,20 @@ class t_about_model extends CI_Model
         $this->db->order_by("ControlNumber","asc");
         return $this->db->get()->result();
     }
+
+    public function save($aboutData)
+    {
+        $this->db->insert($this->_table, $aboutData);
+        return $this->db->insert_id();
+    }
+
+    public function edit()
+    {
+
+    }
+
+    public function delete()
+    {
+        
+    }
 }

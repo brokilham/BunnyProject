@@ -57,17 +57,17 @@ License: You must have a valid license purchased only from themeforest(the above
 										<span></span>
 									</a>
 									<!-- END -->
-							<!-- BEGIN: Responsive Aside Left Menu Toggler -->
+									<!-- BEGIN: Responsive Aside Left Menu Toggler -->
 									<a href="javascript:;" id="m_aside_left_offcanvas_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-tablet-and-mobile-inline-block">
 										<span></span>
 									</a>
 									<!-- END -->
-							<!-- BEGIN: Responsive Header Menu Toggler -->
+									<!-- BEGIN: Responsive Header Menu Toggler -->
 									<a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler m--visible-tablet-and-mobile-inline-block">
 										<span></span>
 									</a>
 									<!-- END -->
-                            <!-- BEGIN: Topbar Toggler -->
+                            		<!-- BEGIN: Topbar Toggler -->
 									<a id="m_aside_header_topbar_mobile_toggle" href="javascript:;" class="m-brand__icon m--visible-tablet-and-mobile-inline-block">
 										<i class="flaticon-more"></i>
 									</a>
@@ -207,6 +207,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </h3>
                                         </div>
                                     </div>
+									<div class="m-portlet__head-tools">
+										<ul class="m-portlet__nav">
+											<li class="m-portlet__nav-item">
+												<button type="button" class="btn btn-accent m-btn m-btn--custom m-btn--pill m-btn--icon m-btn--air" data-toggle="modal" data-target="#m_add_about" >
+													Add
+												</button>
+											</li>							
+										</ul>
+									</div>
                                 </div>
                                 <div class="m-portlet__body">
                                     <!--begin::Section-->
@@ -255,6 +264,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</div>
 				</div>
 			</div>
+			<?php $this->load->view("dashboard/about/add.php") ?> 
 			<!-- end:: Body -->
 			<?php $this->load->view("dashboard/_partials/footer.php") ?> 
 		</div>
@@ -269,4 +279,38 @@ License: You must have a valid license purchased only from themeforest(the above
 	</body>
 	<!-- end::Body -->
 </html>
+<script>
+	$(document).ready(function(){
+		/*$(document).on('click', '#btn-save', function() { 
+			alert("alert");
+		});*/
+		
+		$("#aboutForm").on('submit', function(e) {
+            e.preventDefault();
+
+            var aboutForm = $(this);
+
+            $.ajax({
+				url:'<?=base_url()?>index.php/about/save',
+                type: 'post',
+                data: aboutForm.serialize(),
+                success: function(response){
+					if(response != null || response != "")
+					{
+						var arr_data = JSON.parse(response);  
+						console.log(response.status);
+						if(response.status == 'success') {
+							$('#m_add_about').modal('hide'); 
+							//$("#contactForm").hide();
+						}
+					}
+                   
+
+                    //$("#message").html(response.message);
+
+                }
+            });
+        });
+	});
+</script>
 
